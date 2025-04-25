@@ -14,7 +14,7 @@
     <nav class="navbar navbar-light navbar-expand-md py-3">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="/img/sol.png" alt="Icono" style="width: 24px; height: 24px;  " >
+            <img src="img/sol.png" alt="Icono" style="width: 24px; height: 24px;  " >
            
           <span>Vivaldi</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div id="navcol-2" class="collapse navbar-collapse">
@@ -26,8 +26,42 @@
             </div>
         </div>
     </nav>
+
+    <div class="container pb-3 pt-2 d-flex justify-content-center">
+        <div class="card" style="width: 18rem; align-self: center;">
+            <img src="img/vivaldi.png" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Antonio Lucio Vivaldi</h5>
+              <p class="card-text">Compositor, violinista, empresario, profesor y sacerdote católico veneciano del Barroco</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalInfo">Más información</button>
+            </div>
+          </div>
+    </div>
     
-            <footer class="text-center bg-black fixed-bottom">
+    <div class="modal fade" id="modalInfo" tabindex="-1" aria-labelledby="modalInfoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalInfoLabel">Biografía</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p> Hijo del violinista Giovanni Battista Vivaldi, el pequeño Antonio se inició en el mundo de la música probablemente de la mano de su padre. 
+                Orientado hacia la carrera eclesiástica, fue ordenado sacerdote en 1703, aunque sólo un año más tarde se vio obligado a renunciar a 
+                celebrar misa a consecuencia de una enfermedad bronquial, posiblemente asma.
+                La fama del músico alcanzó la cúspide en el meridiano de su vida con la publicación de sus más importantes colecciones instrumentales: 
+                Il cimento dell'armonia e dell'inventione Op. 8 y La cetra Op. 9. La primera colección, publicada en Ámsterdam en 1725, contenía un 
+                total de doce conciertos y se iniciaba con el conjunto de cuatro conciertos con violín solista titulado Las cuatro estaciones, 
+                los mejores de la colección y los más célebres de su obra.
+            </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+            <footer class="text-center bg-black ">
                 <div class="container text-muted py-4 py-lg-5">
                     <ul class="list-inline">
                         <li class="list-inline-item me-4"><a class="link-secondary" href="#">Web design</a></li>
